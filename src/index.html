@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="../dist/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav" style="margin: 0 auto">
+        <ul class="header__list">
+          <li class="header__item"><a href="#projects" class="header__link">Projects</a></li>
+          <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+          <li class="header__item"><a href="#contact" class="header__link">Contact us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro-banner">
+        <img src="img/prof.jpg" alt="programmer picture" class="intro-banner__image" />
+        <div class="intro-banner__content">
+          <h1 class="intro-banner__title">Frontend Developer</h1>
+          <p class="intro-banner__bio">
+            I'm Jamal Ghazawneh, a Computer Science student in my final year.
+            I've completed training programs at Expert Company and Al-Rajaa Company, where I worked on Flutter development.
+            I have completed 400 hours of cooperative work. I also took a course in Python and I’m currently enrolled in a
+            Front-End Development course. I have interests in creating responsive user interfaces using HTML, CSS, and JavaScript.
+            I've built several interactive websites focused on user experience.
+          </p>
+        </div>
+      </section>
+
+      <div class="projects-skills-container">
+        <section class="projects" id="projects">
+          <fieldset>
+            <legend>Projects</legend>
+            <div class="projects__grid">
+              <div class="project-card">
+                <img src="img/bz.jpeg" alt="Project-1" class="project-card__image" />
+                <h3 class="project-card__title">business-landing website</h3>
+                <p class="project-card__description">
+                  Built entirely with HTML and CSS, this responsive website offers a clean and modern layout tailored for business needs.
+                  It organizes content effectively to engage visitors and ensure a seamless experience across all screen sizes.
+                </p>
+                <a href="https://github.com/jamalgh03" class="project-card__button">View Project</a>
+              </div>
+            </div>
+          </fieldset>
+        </section>
+
+        <section class="skills" id="skills">
+          <fieldset>
+            <legend>Skills</legend>
+            <div class="skills__grid">
+              <div class="skill-card">HTML</div>
+              <div class="skill-card">CSS</div>
+              <div class="skill-card">JavaScript</div>
+              <div class="skill-card">Python</div>
+              <div class="skill-card">Java</div>
+              <div class="skill-card">C</div>
+              <div class="skill-card">Linux</div>
+              <div class="skill-card">SQL</div>
+              <div class="skill-card">Data Structure</div>
+              <div class="skill-card">Android Developer</div>
+              <div class="skill-card">QA Testing</div>
+              <div class="skill-card">Data Science</div>
+            </div>
+          </fieldset>
+        </section>
+      </div>
+
+      <section class="contact" id="contact">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <div class="contact__buttons">
+            <a href="mailto:jamalismat.gh@gmail.com" class="contact__button">
+              <img src="https://img.icons8.com/ios-filled/24/000000/email.png" alt="Email" /> Email
+            </a>
+
+            <a href="https://www.linkedin.com/in/jamal-gh-1b795632a/" target="_blank" class="contact__button">
+              <img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png" alt="LinkedIn" /> LinkedIn
+            </a>
+
+            <a href="https://github.com/jamalgh03" target="_blank" class="contact__button">
+              <img src="https://img.icons8.com/ios-filled/24/000000/github.png" alt="GitHub" /> GitHub
+            </a>
+          </div>
+        </fieldset>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">© jamal ghazawneh - alram-jerusalem</p>
+    </footer>
+  </body>
+</html>
